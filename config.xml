@@ -102,31 +102,8 @@
     </GUIConfigs>
     <!-- The History of opened files list -->
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="no" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="2" transparencyMode="1" transparency="150" dotMatchesNewline="no">
-        <Find name="    " />
-        <Find name="sizer_b" />
-        <Find name="MyFrame" />
-        <Find name="charset" />
-        <Find name="str_replace" />
-        <Find name="heart" />
-        <Find name="&lt;3" />
-        <Find name="happ" />
-        <Find name=":)" />
-        <Find name="&lt;ss" />
-        <Replace name="&#x0009;" />
-        <Replace name="preg_replace" />
-        <Replace name='&quot;' />
-        <Replace name="&amp;" />
-        <Replace name="&gt;" />
-        <Replace name="&lt;" />
-        <Replace name='&lt;img src=&quot;http://www.skypeur.fr/wp-content/uploads/2013/02/emoticon-0109-kiss.gif&quot; alt=&quot;:*&quot; /&gt;' />
-        <Replace name="&apos;" />
-        <Replace name="&lt;tr&gt;" />
-        <Replace name="Appel sortan" />
     </FindHistory>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="C:\Users\Augustin\Dropbox\travail\lyc&#x00E9;e\travail terminale\isn\Projet isn terminale\Makefile.windows" />
-        <File filename="C:\Program Files\Cyg-npp\stylers.xml" />
-        <File filename="c:\program files\Cyg-npp\plugins\Dev-Cpp\lib\gcc\mingw32\4.7.1\include\c++\cwctype" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
