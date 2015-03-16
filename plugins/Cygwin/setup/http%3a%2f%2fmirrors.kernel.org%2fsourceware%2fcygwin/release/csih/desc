@@ -1,0 +1,17 @@
+csih
+sdesc: "Provides support for installing cygwin services"
+ldesc: "CSIH (cygwin-service-installation-helper is a script
+library used to assist installing cygwin services, such as sshd.
+It is derived in part from various other sources. It is intended
+to be 'sourced' by configuration scripts such as ssh-host-config,
+syslog-config, or iu-config, and that script can then make use of
+the shell functions defined by this package."
+category: Utils
+requires: bash gawk sed editrights grep diffutils coreutils
+version: 0.9.7-1
+install: x86/release/csih/csih-0.9.7-1.tar.bz2 237606 0dab5714a91684aa099106ea0367d53a
+source: x86/release/csih/csih-0.9.7-1-src.tar.bz2 69291 823820970037c35653b110ec513a26b0
+[prev]
+version: 0.9.6-1
+install: x86/release/csih/csih-0.9.6-1.tar.bz2 236531 49fd6bf958bd6fb8c62a62e6f5797ff2
+source: x86/release/csih/csih-0.9.6-1-src.tar.bz2 67764 3c826f2f830f8133e1d50888f1d633d7

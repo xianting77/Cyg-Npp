@@ -1,0 +1,15 @@
+ruby-psych
+sdesc: "Ruby YAML parser module"
+ldesc: "Psych is a YAML parser and emitter. Psych leverages libyaml for
+its YAML parsing and emitting capabilities. In addition to wrapping libyaml,
+Psych also knows how to serialize and de-serialize most Ruby objects to and
+from the YAML format."
+category: Ruby
+requires: libyaml0_2 ruby _autorebase cygwin
+version: 2.0.6-1
+install: x86/release/ruby-psych/ruby-psych-2.0.6-1.tar.xz 34608 1ad1ce0a16d82f0271328f6b605a63b1
+source: x86/release/ruby-psych/ruby-psych-2.0.6-1-src.tar.xz 123600 1038f2bbb18db7f940ef0a4a3771e5f7
+[prev]
+version: 2.0.5-1
+install: x86/release/ruby-psych/ruby-psych-2.0.5-1.tar.xz 34240 e5e245c0ba25d2dfef568876034aa636
+source: x86/release/ruby-psych/ruby-psych-2.0.5-1-src.tar.xz 123308 3f1fb30d3d7a25eeef35b155ba396b31

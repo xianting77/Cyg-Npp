@@ -1,0 +1,30 @@
+perl_vendor
+sdesc: "Additional vendor modules previously packaged in perl-5.10"
+ldesc: "Common modules to install, test, debug and report CPAN modules:
+Pod::Escapes Pod::Simple Test::Pod Devel::Symdump Pod::Coverage
+Test::Pod::Coverage Compress::Bzip2 IO::String Archive::Zip
+Term::ReadKey Term::ReadLine::Perl Term::ReadLine::Gnu
+XML::NamespaceSupport XML::SAX::Base XML::SAX XML::LibXML::Common
+XML::LibXML XML::Parser Proc::ProcessTable YAML Config::Tiny
+File::Copy::Recursive IPC::Run3 Probe::Perl Tee IO::CaptureOutput
+File::pushd File::Which File::HomeDir Digest::SHA IPC::Run
+Module::Signature URI HTML::Tagset HTML::Parser HTTP::Date
+Encode::Locale LWP::MediaTypes HTTP::Message File::Listing
+HTTP::Daemon WWW::RobotRules HTTP::Negotiate HTTP::Cookies Net::HTTP
+WWW::RobotRules LWP Net::IP Digest::HMAC_MD5 Net::DNS Test::Reporter
+Net::SSL common::sense JSON::XS JSON Metabase::Client::Simple
+Sub::Install Data::UUID Sub::Exporter Params::Util Data::OptList
+Data::GUID CPAN::DistnameInfo Metabase::Fact Test::Tester
+Test::NoWarnings Config::Perl::V CPAN::Testers::Report
+Test::Reporter::Transport::Metabase Capture::Tiny Devel::Autoflush
+IPC::Cmd CPAN::Reporter Module::ScanDeps PAR::Dist Socket6
+IO::Socket::INET6 B::Generate PadWalker Data::Alias"
+category: Perl
+requires: perl libssp0 libgcc1 libbz2_1 zlib0 libopenssl100 libreadline7 libncurses10 libncursesw10 libxml2 libiconv2 libexpat1 liblzma5 _autorebase cygwin
+version: 5.14.2-3
+install: x86/release/perl/perl_vendor/perl_vendor-5.14.2-3.tar.bz2 2536307 5b3f36321cff52dc66c8048aa06f905a
+source: x86/release/perl/perl-5.14.2-3-src.tar.bz2 17627943 8a1d9eb3fd927b45b8c75fa8f590bcf0
+[test]
+version: 5.18.2-1
+install: x86/release/perl/perl_vendor/perl_vendor-5.18.2-1.tar.bz2 2311437 8568f20dcf62369b3b66e56872245150
+source: x86/release/perl/perl-5.18.2-1-src.tar.bz2 21227663 3119c3c113696b618ac0d995c9e2c965

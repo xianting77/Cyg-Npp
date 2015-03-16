@@ -1,0 +1,19 @@
+diffutils
+sdesc: "A GNU collection of diff utilities"
+ldesc: "Diffutils includes four utilities: diff, cmp, diff3 and sdiff.
+Diff compares two files and shows the differences, line by line.  The cmp
+command shows the offset and line numbers where two files differ, or cmp can
+show the characters that differ between the two files.  The diff3 command shows
+the differences between three files.  Diff3 can be used when two people have
+made independent changes to a common original; diff3 can produce a merged file
+that contains both sets of changes and warnings about conflicts.  The sdiff
+command can be used to merge two files interactively."
+category: Utils
+requires: libgcc1 libiconv2 libintl8 libsigsegv2 _update-info-dir cygwin
+version: 3.3-2
+install: x86/release/diffutils/diffutils-3.3-2.tar.xz 206760 46ef7b2a6e11a3b01749a34fd911f81b
+source: x86/release/diffutils/diffutils-3.3-2-src.tar.xz 1202900 be702b2640a43442d69b0f04cbca23e8
+[prev]
+version: 3.2-1
+install: x86/release/diffutils/diffutils-3.2-1.tar.bz2 3181174 6646ca2f320b313a6e2527d39e5e58e2
+source: x86/release/diffutils/diffutils-3.2-1-src.tar.bz2 1441362 792dec31e53187cb369524458dfd894b

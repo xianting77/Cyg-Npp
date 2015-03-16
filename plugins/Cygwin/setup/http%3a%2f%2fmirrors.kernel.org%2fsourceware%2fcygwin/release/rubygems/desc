@@ -1,0 +1,8 @@
+rubygems
+sdesc: "Ruby module management system"
+ldesc: "A centralized Ruby extension management system, similar to Perl's CPAN"
+category: Ruby
+requires: ruby ruby-io-console ruby-minitest4 ruby-psych ruby-rake ruby-rdoc ca-certificates cygwin
+version: 2.4.1-1
+install: x86/release/rubygems/rubygems-2.4.1-1.tar.xz 176224 bffed6b92cf53ebf0609176bd198f730
+source: x86/release/rubygems/rubygems-2.4.1-1-src.tar.xz 440212 9d7239fefeb14f91528de8145ef28d44

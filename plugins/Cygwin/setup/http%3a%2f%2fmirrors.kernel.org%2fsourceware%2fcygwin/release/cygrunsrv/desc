@@ -1,0 +1,12 @@
+cygrunsrv
+sdesc: "NT/W2K service initiator"
+ldesc: "NT/W2K service initiator"
+category: Admin
+requires: cygwin
+version: 1.61-1
+install: x86/release/cygrunsrv/cygrunsrv-1.61-1.tar.xz 69820 aa8730e68453a711597a3b5113a7464b
+source: x86/release/cygrunsrv/cygrunsrv-1.61-1-src.tar.xz 92316 938590b3047638cf3541e688ff052e3e
+[prev]
+version: 1.60-1
+install: x86/release/cygrunsrv/cygrunsrv-1.60-1.tar.xz 70180 a8ae6198900dac118029bf4e9e574f0e
+source: x86/release/cygrunsrv/cygrunsrv-1.60-1-src.tar.xz 92188 7f42da8fe0878729cb60100640ef4af3

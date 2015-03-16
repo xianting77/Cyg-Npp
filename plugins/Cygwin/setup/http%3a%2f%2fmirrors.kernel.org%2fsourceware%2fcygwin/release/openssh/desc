@@ -1,0 +1,14 @@
+openssh
+sdesc: "The OpenSSH server and client programs"
+ldesc: "OpenSSH is a program for logging into a remote machine and for
+	executing commands on a remote machine.  It can replace rlogin and rsh,
+	providing encrypted communication between two machines."
+category: Net
+requires: bash crypt libedit0 libgcc1 libgssapi_krb5_2 libkrb5_3 libopenssl100 libssp0 zlib0 coreutils csih cygrunsrv diffutils editrights gawk grep cygwin
+version: 6.7p1-1
+install: x86/release/openssh/openssh-6.7p1-1.tar.xz 768472 3c5f72e9ed022cbc9923eb52fcf45f70
+source: x86/release/openssh/openssh-6.7p1-1-src.tar.xz 1352620 56bd5f2fb484a8c55943d2d65c00dac9
+[prev]
+version: 6.6.1p1-2
+install: x86/release/openssh/openssh-6.6.1p1-2.tar.xz 744296 01441c243024f0849c09cb4c07f63fef
+source: x86/release/openssh/openssh-6.6.1p1-2-src.tar.xz 1285296 c7ab8e04434c0ed7038a35890f7fc365

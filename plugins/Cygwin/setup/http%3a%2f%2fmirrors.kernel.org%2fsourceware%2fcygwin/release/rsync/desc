@@ -1,0 +1,21 @@
+rsync
+sdesc: "Fast remote file transfer program (can use existing data to minimize transfer)"
+ldesc: "rsync is a file transfer program. rsync uses the 'rsync algorithm'
+which provides a very fast method for bringing
+remote files into sync. It does this by sending just the
+differences in the files across the link, without requiring
+that both sets of files are present at one of the ends of the
+link beforehand."
+category: Net
+requires: libgcc1 libiconv2 cygwin
+version: 3.0.9-1
+install: x86/release/rsync/rsync-3.0.9-1.tar.bz2 276927 94518a75a89a2560aac10c66194dff19
+source: x86/release/rsync/rsync-3.0.9-1-src.tar.bz2 800918 ccd33b681a1069dc921c681da71ec12a
+[prev]
+version: 3.0.8-1
+install: x86/release/rsync/rsync-3.0.8-1.tar.bz2 272248 b373bc0f12ce2f204a2e9236909c5c9e
+source: x86/release/rsync/rsync-3.0.8-1-src.tar.bz2 798851 a5e2d92d57dd0a1c1927b7151a8e4e48
+[test]
+version: 3.1.0-1
+install: x86/release/rsync/rsync-3.1.0-1.tar.xz 290856 052ba79ff66b0a8496ce0137a2c77b40
+source: x86/release/rsync/rsync-3.1.0-1-src.tar.xz 956368 cbf1e2bfc95b6b24fd6f0be08736ecb6

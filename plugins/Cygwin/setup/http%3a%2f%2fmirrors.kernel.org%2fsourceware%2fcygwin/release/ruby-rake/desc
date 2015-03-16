@@ -1,0 +1,13 @@
+ruby-rake
+sdesc: "Ruby build system"
+ldesc: "Rake is a Make-like program implemented in Ruby. Tasks and
+dependencies are specified in standard Ruby syntax."
+category: Ruby
+requires: ruby rubygems cygwin
+version: 10.3.2-1
+install: x86/release/ruby-rake/ruby-rake-10.3.2-1.tar.xz 48880 43acd135ffb2f71bcecfeb549ae158bc
+source: x86/release/ruby-rake/ruby-rake-10.3.2-1-src.tar.xz 128496 b0d483ab83380e97772c4ab522f212b9
+[prev]
+version: 10.0.4-1
+install: x86/release/ruby-rake/ruby-rake-10.0.4-1.tar.bz2 395708 3477f83e34857eb6a8b4af5181865838
+source: x86/release/ruby-rake/ruby-rake-10.0.4-1-src.tar.bz2 118628 edd5b4b8f27db32b30198927548cc7cf

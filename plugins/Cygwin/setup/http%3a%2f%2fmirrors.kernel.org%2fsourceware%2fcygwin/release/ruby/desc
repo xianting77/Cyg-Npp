@@ -1,0 +1,15 @@
+ruby
+sdesc: "Interpreted object-oriented scripting language"
+ldesc: "Ruby is the interpreted scripting language for quick and easy
+object-oriented programming.  It has many features to process text files and
+to do system management tasks (as in Perl).  It is simple, straight-forward,
+and extensible."
+category: Interpreters Ruby
+requires: crypt libdb4.8 libffi6 libgcc1 libgdbm4 libncursesw10 libopenssl100 libreadline7 libssp0 libyaml0_2 ruby-minitest4 ruby-rdoc rubygems zlib0 _autorebase cygwin
+version: 2.0.0-p598-1
+install: x86/release/ruby/ruby-2.0.0-p598-1.tar.xz 2731224 52dcc8dc351a5c9482ba6e47d1faa26e
+source: x86/release/ruby/ruby-2.0.0-p598-1-src.tar.xz 10531340 b539f9cb2dcd43a60fbbf068299a9cb3
+[prev]
+version: 2.0.0-p594-1
+install: x86/release/ruby/ruby-2.0.0-p594-1.tar.xz 2731392 daa6e42db32460c5976477faad401db4
+source: x86/release/ruby/ruby-2.0.0-p594-1-src.tar.xz 10529780 4472883dcc53744ed8a5d6a9925ea54c

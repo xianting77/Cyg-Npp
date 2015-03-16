@@ -1,0 +1,10 @@
+libsigsegv2
+sdesc: "Handling page faults in user mode - runtime"
+category: Libs
+version: 2.10-1
+install: x86/release/libsigsegv/libsigsegv2/libsigsegv2-2.10-1.tar.bz2 3842 70578025a349eb3e462c6f5cc4fd70aa
+source: x86/release/libsigsegv/libsigsegv-2.10-1-src.tar.bz2 408076 cc1ea448c4d5e9adf7d02f79c6353b62
+[prev]
+version: 2.8-1
+install: x86/release/libsigsegv/libsigsegv2/libsigsegv2-2.8-1.tar.bz2 4963 7508ba6bfc24ac96430cb01f9ae3924f
+source: x86/release/libsigsegv/libsigsegv-2.8-1-src.tar.bz2 433148 a24ce0debfffdc23ffc399967bef5c33

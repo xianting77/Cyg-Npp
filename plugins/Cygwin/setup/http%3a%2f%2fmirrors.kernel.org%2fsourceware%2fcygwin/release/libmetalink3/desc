@@ -1,0 +1,10 @@
+libmetalink3
+sdesc: "Metalink XML parser library"
+ldesc: "libmetalink is a Metalink library written in C language. It is
+intended to provide the programs written in C to add Metalink functionality
+such as parsing Metalink XML files."
+category: Net
+requires: libexpat1
+version: 0.1.2-1
+install: x86/release/libmetalink/libmetalink3/libmetalink3-0.1.2-1.tar.bz2 15579 42990d98cafc656f000c3257801efc48
+source: x86/release/libmetalink/libmetalink-0.1.2-1-src.tar.bz2 326980 bf41a5b986038041914046fbdf16b90b

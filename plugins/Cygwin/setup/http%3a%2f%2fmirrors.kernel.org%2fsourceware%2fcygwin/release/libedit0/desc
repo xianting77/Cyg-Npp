@@ -1,0 +1,14 @@
+libedit0
+sdesc: "The NetBSD Editline library (runtime)"
+ldesc: "Libedit is an autotool- and libtoolized port of the NetBSD Editline library.
+It provides generic line editing, history, and tokenization functions, similar
+to those found in GNU Readline."
+category: Libs
+requires: libncursesw10
+version: 20130712-1
+install: x86/release/libedit/libedit0/libedit0-20130712-1.tar.xz 73552 8c009f6adcc09fb07d730cbe327329b3
+source: x86/release/libedit/libedit-20130712-1-src.tar.xz 486508 41f1811ea4a16ae34cc68c66d9e19251
+[prev]
+version: 20120311-1
+install: x86/release/libedit/libedit0/libedit0-20120311-1.tar.bz2 78717 17bdeaef868724a3c15d4394be04cf13
+source: x86/release/libedit/libedit-20120311-1-src.tar.bz2 475278 d9b4c0f18ce968481adb1540eb9dd165

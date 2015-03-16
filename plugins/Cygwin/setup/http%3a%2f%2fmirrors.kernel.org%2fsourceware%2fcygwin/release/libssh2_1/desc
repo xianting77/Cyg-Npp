@@ -1,0 +1,14 @@
+libssh2_1
+sdesc: "SSH2 protocol library"
+ldesc: "libssh2 is a library implementing the SSH2 protocol as defined
+by Internet Drafts: SECSH-TRANS, SECSH-USERAUTH, SECSH-CONNECTION, SECSH-ARCH,
+SECSH-FILEXFER, SECSH-DHGEX, SECSH-NUMBERS, and SECSH-PUBLICKEY."
+category: Net
+requires: libopenssl100 zlib0 _autorebase cygwin
+version: 1.4.3-1
+install: x86/release/libssh2/libssh2_1/libssh2_1-1.4.3-1.tar.xz 109140 bccde3af320f1fb2fb468bb417ca7625
+source: x86/release/libssh2/libssh2-1.4.3-1-src.tar.xz 687604 449825e618e6261b2b4c0c212728b919
+[prev]
+version: 1.4.2-1
+install: x86/release/libssh2/libssh2_1/libssh2_1-1.4.2-1.tar.bz2 107632 6f1bf8b88fa60722897ebdadffe2cc02
+source: x86/release/libssh2/libssh2-1.4.2-1-src.tar.bz2 685104 d2660aa74f63aaf4dfa113f5fb2dadac

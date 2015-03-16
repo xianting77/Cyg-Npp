@@ -1,0 +1,6 @@
+nc
+sdesc: "Reads and writes data across network connections using TCP or UDP"
+category: Net
+version: 1.107-3
+install: x86/release/nc/nc-1.107-3.tar.bz2 16951 a7759044122bdffa9787b68cebfbc3dc
+source: x86/release/nc/nc-1.107-3-src.tar.bz2 24620 17e09b293491e11c24ab9255b8b59216

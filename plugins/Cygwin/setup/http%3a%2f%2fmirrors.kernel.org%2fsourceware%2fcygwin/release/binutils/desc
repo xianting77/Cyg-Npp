@@ -1,0 +1,13 @@
+binutils
+sdesc: "GNU assember, linker, and similar utilities"
+ldesc: "This directory contains various GNU compilers, assemblers, linkers,
+debuggers, etc., plus their support routines, definitions, and documentation."
+category: Devel
+requires: libintl8 zlib-devel zlib0 _update-info-dir cygwin
+version: 2.24.51-6
+install: x86/release/binutils/binutils-2.24.51-6.tar.xz 4521140 9aba0fb7f79a8ae3a9421d130bad21d8
+source: x86/release/binutils/binutils-2.24.51-6-src.tar.xz 23432284 7d6355444245aaf5fec26516ebe6999b
+[prev]
+version: 2.24.51-5
+install: x86/release/binutils/binutils-2.24.51-5.tar.xz 4520228 f932b27d47d9dd4e71c69f1e23b61325
+source: x86/release/binutils/binutils-2.24.51-5-src.tar.xz 23432256 764bc5bc73414767bff086ff72bbb9b8

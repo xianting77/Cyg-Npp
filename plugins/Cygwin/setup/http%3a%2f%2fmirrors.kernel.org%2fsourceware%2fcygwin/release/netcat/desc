@@ -1,0 +1,6 @@
+netcat
+sdesc: "Old netcat. Install nc package instead"
+category: _obsolete
+requires: nc
+version: 1.10-3
+install: x86/release/_obsolete/netcat/netcat-1.10-3.tar.bz2 46 c616cffee0f344c37fd4e045a7a87054

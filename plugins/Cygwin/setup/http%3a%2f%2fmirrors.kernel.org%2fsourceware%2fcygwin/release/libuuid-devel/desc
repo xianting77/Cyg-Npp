@@ -1,0 +1,12 @@
+libuuid-devel
+sdesc: "Universally Unique ID library (development)"
+ldesc: "Universally Unique ID library (development)"
+category: Libs
+requires: libintl-devel libuuid1 cygwin
+version: 2.25.2-1
+install: x86/release/util-linux/libuuid-devel/libuuid-devel-2.25.2-1.tar.xz 16716 3a610bafc54c89df036ceed26010cf9c
+source: x86/release/util-linux/util-linux-2.25.2-1-src.tar.xz 3710064 3b41e788acfb6918c91a582119d95de7
+[prev]
+version: 2.25.1-1
+install: x86/release/util-linux/libuuid-devel/libuuid-devel-2.25.1-1.tar.xz 16708 57901db98b30f872254150bd4e1859b2
+source: x86/release/util-linux/util-linux-2.25.1-1-src.tar.xz 3700344 bddb78b480daf57f18005e584cc2fcef

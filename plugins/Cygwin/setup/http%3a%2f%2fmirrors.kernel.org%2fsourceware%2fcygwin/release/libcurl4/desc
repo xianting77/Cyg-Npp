@@ -1,0 +1,17 @@
+libcurl4
+sdesc: "Multi-protocol file transfer library (runtime)"
+ldesc: "curl is a command line tool and library for transferring files
+with URL syntax, supporting FTP, FTPS, HTTP, HTTPS, SCP, SFTP, TFTP,
+TELNET, DICT, and FILE. curl supports SSL certificates, HTTP POST, HTTP
+PUT, FTP uploading, HTTP form based upload, proxies, cookies,
+user+password authentication (Basic, Digest, NTLM, Negotiate...), file
+transfer resume, proxy tunneling and a busload of other useful tricks."
+category: Libs
+requires: libgcc1 libgssapi_krb5_2 libidn11 libopenldap2_4_2 libopenssl100 libssh2_1 zlib0 ca-certificates _autorebase cygwin
+version: 7.39.0-1
+install: x86/release/curl/libcurl4/libcurl4-7.39.0-1.tar.xz 180188 95eeb92f141422a1532498c7c9de8e91
+source: x86/release/curl/curl-7.39.0-1-src.tar.xz 2651940 ef7f589f32d6498fa40f06e21344f5c3
+[prev]
+version: 7.38.0-1
+install: x86/release/curl/libcurl4/libcurl4-7.38.0-1.tar.xz 180016 3ced60323da8b0a9b77b502da7adaec8
+source: x86/release/curl/curl-7.38.0-1-src.tar.xz 2610116 fabbc3513804b081ff8a8471355e356c

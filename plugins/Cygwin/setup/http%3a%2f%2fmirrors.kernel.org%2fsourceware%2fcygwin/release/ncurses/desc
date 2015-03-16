@@ -1,0 +1,16 @@
+ncurses
+sdesc: "Terminal display utilities"
+ldesc: "Ncurses (new curses) started as a freely distributable clone of
+SVr4 curses. It has outgrown the clone description, and now contains many
+features which are not in SVr4 curses. Curses is a pun on the term <<cursor
+optimization>>. It is a library of functions that manage an application's
+display on character-cell terminals (e.g., VT100)."
+category: Utils
+requires: libncursesw10
+version: 5.9-20140524-1
+install: x86/release/ncurses/ncurses-5.9-20140524-1.tar.xz 239756 d5594947b7325b2d54389bd873515450
+source: x86/release/ncurses/ncurses-5.9-20140524-1-src.tar.xz 2964904 93add05b7b966ac81cedd46caec0bcf4
+[prev]
+version: 5.7-18
+install: x86/release/ncurses/ncurses-5.7-18.tar.bz2 357874 e1c64f01d5d8c8e1319cf617b099e971
+source: x86/release/ncurses/ncurses-5.7-18-src.tar.bz2 2927435 7c30349b6cf455ad1950f222673d4890

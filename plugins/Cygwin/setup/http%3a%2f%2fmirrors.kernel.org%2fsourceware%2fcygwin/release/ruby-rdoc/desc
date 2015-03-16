@@ -1,0 +1,14 @@
+ruby-rdoc
+sdesc: "Ruby rdoc module"
+ldesc: "RDoc produces HTML and command-line documentation for Ruby
+projects. RDoc includes the rdoc and ri tools for generating and displaying
+online documentation."
+category: Ruby
+requires: ruby ruby-json rubygems cygwin
+version: 4.1.2-1
+install: x86/release/ruby-rdoc/ruby-rdoc-4.1.2-1.tar.xz 407440 fc96933c81723a397e1969c0e17db657
+source: x86/release/ruby-rdoc/ruby-rdoc-4.1.2-1-src.tar.xz 695448 cfa7d7ab3efc9ea9490691a126a759bf
+[prev]
+version: 4.1.1-1
+install: x86/release/ruby-rdoc/ruby-rdoc-4.1.1-1.tar.xz 408232 d936730b068cd9ab15189e5115427341
+source: x86/release/ruby-rdoc/ruby-rdoc-4.1.1-1-src.tar.xz 696744 98e4c960a8cf11bc798f996ad9eaf2d7

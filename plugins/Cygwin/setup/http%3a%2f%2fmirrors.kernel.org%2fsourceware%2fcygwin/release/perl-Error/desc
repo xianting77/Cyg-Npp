@@ -1,0 +1,16 @@
+perl-Error
+sdesc: "Perl module for OO error/exception handling"
+ldesc: "Perl module for error/exception handling in an OO-ish way.
+This module provides two interfaces.  Firstly, 'Error' provides a
+procedural interface to exception handling.  Secondly 'Error' is a
+base class for errors/exceptions that can either be thrown, for
+subsequent catch, or can simply be recorded."
+category: Perl
+requires: perl
+version: 0.17016-1
+install: x86/release/perl-Error/perl-Error-0.17016-1.tar.bz2 26644 deaacc18f3a91f19d1d5076b41bbec31
+source: x86/release/perl-Error/perl-Error-0.17016-1-src.tar.bz2 23752 24da0f88807ce8c77144dd70817c037d
+[prev]
+version: 0.17015-1
+install: x86/release/perl-Error/perl-Error-0.17015-1.tar.bz2 25762 32541822ed924b8939f4660472644861
+source: x86/release/perl-Error/perl-Error-0.17015-1-src.tar.bz2 20756 d597b0674eea6008c3a58e180f3b17cf

@@ -1,0 +1,16 @@
+libintl-devel
+sdesc: "GNU Internationalization runtime library"
+ldesc: "The GNU gettext package provides a set of tools and documentation
+for producing multi-lingual messages in programs. Tools include a set of
+conventions about how programs should be written to support message catalogs,
+a directory and file naming organization for the message catalogs, a runtime
+library which supports the retrieval of translated messages, and stand-alone
+programs for handling the translatable and the already translated strings.
+Gettext provides an easy to use library and tools for creating, using, and
+modifying natural language catalogs and is a powerful and simple method for
+internationalizing programs."
+category: Libs
+requires: libiconv libintl8
+version: 0.18.3.2-2
+install: x86/release/gettext/libintl-devel/libintl-devel-0.18.3.2-2.tar.xz 68668 82f0ba966af4700899c07a49f27a3781
+source: x86/release/gettext/gettext-0.18.3.2-2-src.tar.xz 15978204 c1da5538f52b77fe3dcbefa52c07ccd8

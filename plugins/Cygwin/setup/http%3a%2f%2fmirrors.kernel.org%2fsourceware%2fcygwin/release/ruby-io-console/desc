@@ -1,0 +1,8 @@
+ruby-io-console
+sdesc: "Ruby console I/O module"
+ldesc: "Ruby module for adding console capabilities to I/O instances."
+category: Ruby
+requires: ruby _autorebase cygwin
+version: 0.4.2-1
+install: x86/release/ruby-io-console/ruby-io-console-0.4.2-1.tar.xz 10224 71ae6112ce5c1b33faeb2e23124e0c2c
+source: x86/release/ruby-io-console/ruby-io-console-0.4.2-1-src.tar.xz 6580 76721a50f8be9f851227449e02d7d9f9

@@ -1,0 +1,16 @@
+python
+sdesc: "Python language interpreter"
+ldesc: "Python is an interpreted, interactive object-oriented
+programming language suitable (amongst other uses) for distributed
+application development, scripting, numeric computing and system
+testing.  Python is often compared to Tcl, Perl, Java, JavaScript,
+Visual Basic or Scheme."
+category: Python Interpreters
+requires: bash crypt libbz2_1 libdb4.8 libexpat1 libffi6 libgcc1 libgdbm4 libintl8 libncursesw10 libopenssl100 libreadline7 libsqlite3_0 zlib0 binutils libuuid-devel _autorebase cygwin
+version: 2.7.8-1
+install: x86/release/python/python-2.7.8-1.tar.xz 4527444 2c752ab19be9ced21858ae6b36857e41
+source: x86/release/python/python-2.7.8-1-src.tar.xz 10532236 4b0945cc587d560c2c4884f8b365c354
+[prev]
+version: 2.7.3-1
+install: x86/release/python/python-2.7.3-1.tar.bz2 5643131 5475c0161167a27c6b71747beb1e17ce
+source: x86/release/python/python-2.7.3-1-src.tar.bz2 16232663 8795dce967fc31de8e76d6fea046183d

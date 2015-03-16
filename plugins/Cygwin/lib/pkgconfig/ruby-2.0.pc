@@ -1,0 +1,53 @@
+arch=i386-cygwin
+sitearch=${arch}
+prefix=/usr
+exec_prefix=${prefix}
+bindir=${exec_prefix}/bin
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+MAJOR=2
+MINOR=0
+TEENY=0
+ruby_version=
+RUBY_PROGRAM_VERSION=2.0.0
+RUBY_BASE_NAME=ruby
+RUBY_VERSION_NAME=${RUBY_BASE_NAME}-${ruby_version}
+RUBY_SO_NAME=${RUBY_BASE_NAME}${MAJOR}${MINOR}${TEENY}
+RUBY_INSTALL_NAME=${RUBY_BASE_NAME}
+DEFFILE=
+LIBPATH=
+LIBRUBY_A=lib${RUBY_SO_NAME}-static.a
+LIBRUBY_SO=cyg${RUBY_SO_NAME}.dll
+LIBRUBY=lib${RUBY_SO_NAME}.dll.a
+LIBRUBYARG_SHARED=-l${RUBY_SO_NAME}
+LIBRUBYARG_STATIC=-l${RUBY_SO_NAME}-static
+LIBRUBYARG=${LIBRUBYARG_SHARED}
+LIBS=-lpthread -lrt -ldl -lcrypt 
+DLDFLAGS=-Wl,--export-all-symbols -Wl,--enable-auto-image-base,--enable-auto-import
+archlibdir=${libdir}/${arch}
+sitearchlibdir=${libdir}/${sitearch}
+archincludedir=${includedir}/${arch}
+sitearchincludedir=${includedir}/${sitearch}
+ruby=${bindir}/${RUBY_INSTALL_NAME}.exe
+rubylibprefix=${exec_prefix}/share/${RUBY_BASE_NAME}/2.0.0
+rubyarchprefix=${libdir}/${RUBY_BASE_NAME}/2.0.0
+rubysitearchprefix=${sitearchlibdir}/${RUBY_BASE_NAME}
+rubylibdir=${rubylibprefix}/${ruby_version}
+vendordir=/usr/share/ruby/vendor_ruby
+sitedir=/usr/local/share/ruby/site_ruby
+vendorlibdir=${vendordir}/${ruby_version}
+sitelibdir=${sitedir}/${ruby_version}
+rubyarchdir=${rubyarchprefix}/${ruby_version}
+vendorarchdir=/usr/lib/ruby/vendor_ruby/2.0.0
+sitearchdir=/usr/local/lib/ruby/site_ruby/2.0.0
+rubyhdrdir=/usr/include/ruby-2.0.0
+vendorhdrdir=/usr/include/ruby-2.0.0/vendor_ruby
+sitehdrdir=/usr/local/include/ruby-2.0.0
+
+Name: Ruby
+Description: Object Oriented Script Language
+Version: 2.0.0
+URL: http://www.ruby-lang.org
+Cflags: -I${rubyhdrdir}/${arch} -I${rubyhdrdir}
+Libs: ${DLDFLAGS} ${LIBRUBYARG_SHARED} ${LIBS}
+Requires:

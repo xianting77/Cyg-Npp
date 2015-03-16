@@ -1,0 +1,5 @@
+#!/bin/bash
+echo please use apt-cyg instead
+
+exit
+

@@ -1,0 +1,17 @@
+git
+sdesc: "Distributed version control system"
+ldesc: "Git is a free and open source distributed version control system
+designed to handle everything from small to very large projects with speed and
+efficiency. Git is easy to learn and has a tiny footprint with lightning fast
+performance. It outclasses SCM tools like Subversion, CVS, Perforce, and
+ClearCase with features like cheap local branching, convenient staging areas,
+and multiple workflows."
+category: Devel
+requires: bash libcurl4 libexpat1 libgcc1 libiconv2 libintl8 libopenssl100 libpcre1 perl perl-Error perl_vendor python zlib0 cygutils less openssh rsync _update-info-dir cygwin
+version: 2.1.1-1
+install: x86/release/git/git-2.1.1-1.tar.xz 4466280 e0ad6146f8f7af31c7a0b786daa0f382
+source: x86/release/git/git-2.1.1-1-src.tar.xz 3996428 7bcf37d83c024fc6a1ceff72422a7bda
+[prev]
+version: 2.1.0-1
+install: x86/release/git/git-2.1.0-1.tar.xz 4437124 99833a211529a65abd27d9e7b9f08aa1
+source: x86/release/git/git-2.1.0-1-src.tar.xz 3916912 a9b6a39e065cbea7f3b95656b89066cc

@@ -1,0 +1,6 @@
+#!/bin/bash
+a=$(cygpath -w -p /)
+b=$(cygpath "$a\\..\\..\notepad++.exe")
+"$b" "$@" & 
+exit
+
