@@ -104,6 +104,7 @@
     </GUIConfigs>
     <!-- The History of opened files list -->
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="no" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="2" transparencyMode="1" transparency="150" dotMatchesNewline="no">
+<<<<<<< HEAD
         <Find name="pas" />
         <Find name="close" />
         <Find name="requete_prepare" />
@@ -141,6 +142,10 @@
         <File filename="C:\Users\Augustin\Desktop\aircrack-ng-1.2-rc1-win\aircrack-ng-1.2-rc1-win\src\airbase-ng.c" />
         <File filename="C:\Users\Augustin\Desktop\aircrack-ng-1.2-rc1-win\aircrack-ng-1.2-rc1-win\src\crypto.c" />
         <File filename="C:\Users\Augustin\AppData\Local\Temp\fz3temp-1\logs.txt" />
+=======
+    </FindHistory>
+    <History nbMaxFile="15" inSubMenu="no" customLength="-1">
+>>>>>>> 84341bc22dddec945bd72d300135f4306c819ee0
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
