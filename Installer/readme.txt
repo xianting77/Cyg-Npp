@@ -1,0 +1,1 @@
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\batfile\shell\edit\command \Notepad++.exe %1

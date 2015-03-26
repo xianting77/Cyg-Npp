@@ -1,7 +1,6 @@
 backup
-Installer
-
 session.xml
 /session.xml
 /plugins/Config/npec_cmdhistory.txt
 /plugins/Cygwin/etc/gitconfig
+config.xml
