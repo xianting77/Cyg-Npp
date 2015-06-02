@@ -1,0 +1,8 @@
+cygwin64-libXau
+sdesc: "X.Org Xauthority library for Cygwin 64bit toolchain"
+ldesc: "X.Org Xauthority library for Cygwin 64bit toolchain"
+category: Devel
+requires: cygwin64-xproto
+version: 1.0.8-1
+install: x86/release/cygwin64-libXau/cygwin64-libXau-1.0.8-1.tar.bz2 20719 4d96d0f778bcae6c0ce3f0886ea8f116a1f38624874145cb2ca73f9277827dbd290a9198bd228a09ec5d597662ee18033bca279ee3318dc0af31fbe4514da68c
+source: x86/release/cygwin64-libXau/cygwin64-libXau-1.0.8-1-src.tar.bz2 297398 e8a3288d2d95612773aea965dba8d10d2f11ca59e620724c74c338895aa4258cdd1c0ac3a76631da83b42610de31358e7364e9350a841c4514fa9fb8c9b6f141

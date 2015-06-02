@@ -1,0 +1,12 @@
+cygwin64-libxcb
+sdesc: "XCB libraries for Cygwin 64bit toolchain"
+ldesc: "libxcb provides an interface to the X Window System protocol,
+which replaces the current Xlib interface. Xlib can also use XCB as a transport
+layer, allowing software to make requests and receive responses with both,
+which eases porting to XCB. However, client programs, libraries, and toolkits
+will gain the most benefit from a native XCB port."
+category: Devel
+requires: cygwin64-libXau cygwin64-libXdmcp
+version: 1.9-1
+install: x86/release/cygwin64-libxcb/cygwin64-libxcb-1.9-1.tar.bz2 304394 d87c01c58865e4bb634a1aededbd27ceb3fbb2383f71cb956436b6b65e1e6d9b0f2f0c441ff171b578df70fbd308bdd868cd01b5829d32099774bf6e9682a344
+source: x86/release/cygwin64-libxcb/cygwin64-libxcb-1.9-1-src.tar.bz2 391085 2356f3e61af56af3db1385e782c7d4f02eb2023bf863ac2b920606cbf7cfe48cd723f3ca6b9351611cc59d7bcabf6850e3c972f11bcfc0556ac3c1f7089fb3ec

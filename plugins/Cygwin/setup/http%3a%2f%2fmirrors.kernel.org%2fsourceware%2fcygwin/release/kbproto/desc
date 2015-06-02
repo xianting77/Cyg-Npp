@@ -1,0 +1,12 @@
+kbproto
+sdesc: "X.Org XKB extension headers"
+ldesc: "X.Org XKB extension headers"
+category: X11
+requires: xproto
+version: 1.0.6-1
+install: x86/release/kbproto/kbproto-1.0.6-1.tar.bz2 917630 bcfafd4064f3f319f5bb0b090896115a7768e6ff34c98b4d21477bed4ef1cc5cad3ad8f9bbd2e3817cfb996861263b3122a0c4e1a7e5aea632dba03f36ea15d8
+source: x86/release/kbproto/kbproto-1.0.6-1-src.tar.bz2 258929 5792401362ff0f6c27b94cda2ae32cade2a92445fee258cb1a6f6a962101fbeeed920ffef77bae9854a2174c341dc8b05b26fbe5b4c24d50f9d9eaa25990ad61
+[prev]
+version: 1.0.5-1
+install: x86/release/kbproto/kbproto-1.0.5-1.tar.bz2 26860 e8e99336845adb53220779702e8bdba07c93e662b37e277ba9e97b3808b276db5959aac786259fe3b026787b041111222892921f5958015c721155fbf0b3f510
+source: x86/release/kbproto/kbproto-1.0.5-1-src.tar.bz2 113366 7e69f655a4b1b5b8198473991803332b0543b74d96a95bb9212927031f423f34cfb3f77a27276e7c2ce6036d4b362fb54a1a45306f226476ffecb5d655e7659d

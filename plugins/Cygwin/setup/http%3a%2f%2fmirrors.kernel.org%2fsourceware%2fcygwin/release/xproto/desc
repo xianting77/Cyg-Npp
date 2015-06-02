@@ -1,0 +1,15 @@
+xproto
+sdesc: "X.Org X11 core headers"
+ldesc: "This package provides the headers and specification documents
+defining the X Window System Core Protocol, Version 11.  It also includes a
+number of headers that aren't purely protocol related, but are depended upon
+by many other X Window System packages to provide common definitions and
+porting layer."
+category: Devel
+version: 7.0.26-1
+install: x86/release/xproto/xproto-7.0.26-1.tar.xz 687892 4c8a8b8f33cab7082e01e9c177b51c160d006a37fd19ebd2e4844a75d7c6a35bd7c437ae88aeb5736609893aaa46fe235050ad44329068f8b8389deb0df5780d
+source: x86/release/xproto/xproto-7.0.26-1-src.tar.xz 306076 225519a6591766f7a145fc1c7ae4d1d0802b656696afc566d27aecaa704484d3d36ef30882748a5062f91befc58b458aae6f7553c7bfcd0e366210038b757a66
+[prev]
+version: 7.0.25-1
+install: x86/release/xproto/xproto-7.0.25-1.tar.xz 859080 915cf70057224d0dc5db29e7daef17ca0cfbd910ea8337e41d9395a3c4e47b92ff16861cc454e3f9cbd2225cd226fda219fbfae14ee6985afba68da53ee4a5e9
+source: x86/release/xproto/xproto-7.0.25-1-src.tar.xz 297352 9ff4071a9369c40446cd86d8dc212caa302a91ff96a4d19bb9627722845b2b44f346360b765b510277702ab67bce6a8c4ec1bd569938ccdda856bc65ac19c5be

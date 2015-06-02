@@ -1,0 +1,8 @@
+cygwin64-libXdmcp
+sdesc: "X.Org XDMCP library for Cygwin 64bit toolchain"
+ldesc: "X.Org Display Manager Control Protocol library"
+category: Devel
+requires: cygwin64-xproto
+version: 1.1.1-1
+install: x86/release/cygwin64-libXdmcp/cygwin64-libXdmcp-1.1.1-1.tar.bz2 143134 2c70ba854c8a5a43dcd84fcb9ac882bbca50b88d2fbe070be4ef2d9a8f1cd4e7c2066d54d45ebe30c2e52aa9f140181a7773676d54cc98e4ec2827dcc3b5d382
+source: x86/release/cygwin64-libXdmcp/cygwin64-libXdmcp-1.1.1-1-src.tar.bz2 313040 eff01b99548995391f27db086240d22329098f41c8bcb3ce4fe3fd59f87ab8cfa9b664c8f29dffa501ea33205869e91bff3ca2a79c81c0354dfed8d1604d1c98

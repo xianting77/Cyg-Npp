@@ -1,0 +1,15 @@
+libglib2.0_0
+sdesc: "GNOME core C function library (runtime)"
+ldesc: "GLib is the low-level core library that forms the basis for
+projects such as GTK+ and GNOME. It provides data structure handling for C,
+portability wrappers, and interfaces for such runtime functionality as
+an event loop, threads, dynamic loading, and an object system."
+category: Libs
+requires: libfam0 libffi6 libgcc1 libiconv2 libintl8 libpcre1 zlib0 gsettings-desktop-schemas shared-mime-info tzcode cygwin
+version: 2.42.2-1
+install: x86/release/glib2.0/libglib2.0_0/libglib2.0_0-2.42.2-1.tar.xz 2619892 949b0dfcabae87d872afa5faa6a59b62c2c3c1118f953ae09d662869b115733f7c897823b10ea5a1b8b60a8b2b4edd1f640d1b6d69fe6d3a3cb28d44d4a17696
+source: x86/release/glib2.0/glib2.0-2.42.2-1-src.tar.xz 7011760 3a78577f1d1e0f49767acaecd66b3dc61d452330adf45d55084c39301b2af209b53bd1b428f57b5a3ae3f6a1aee1d088850b325d25c3858fd54a7bef53903c09
+[prev]
+version: 2.42.1-2
+install: x86/release/glib2.0/libglib2.0_0/libglib2.0_0-2.42.1-2.tar.xz 2620244 e01ec4009ee1bac1692cadfac49d569418bb5ef5ff8925533c93f52453401f315e21ac0133c3abdc70902b0f17cceb633854525d7d0ea92753fe54f1f7ef8a5a
+source: x86/release/glib2.0/glib2.0-2.42.1-2-src.tar.xz 6994164 9606a7d188b14587c6a5063debed9a72c51fbeb282c50bd4b1a526b6b363b649efba4a379092224ec7f792820b8d6d8dd1a054322d34fef919d869c3e027137c

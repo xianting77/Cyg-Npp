@@ -1,0 +1,13 @@
+gamin
+sdesc: "File Alteration Monitor system (daemon)"
+ldesc: "Gamin is a file and directory monitoring system defined to be
+a subset of the FAM (File Alteration Monitor) system."
+category: Libs
+requires: libglib2.0_0 cygwin
+version: 0.1.10-15
+install: x86/release/gamin/gamin-0.1.10-15.tar.xz 51780 6618f9580ca9024ca9d4e5c3b6f19c33b8e2f38cd8886ea033e72fae0be611c2791c6cfc3a409a83ddb778403cdd1c97113ec2992fba1853724142d5b317176b
+source: x86/release/gamin/gamin-0.1.10-15-src.tar.xz 658008 8fd4216c82983313f756fae68710a9c59433628da48c2195e46a9e1f92d388f7dcbd07481c06ed6cb37f9d38364db5c536fb102ed890c67af7b286549ecf76aa
+[prev]
+version: 0.1.10-14
+install: x86/release/gamin/gamin-0.1.10-14.tar.bz2 52811 13dd4e824605c92bd24076efd5beecb2bf846a0d4d26d070f2732e28cf525a79679bcf76b8e290c81b5a7f6356bd2c2a03161ac2717d278fe89dcfb6ff092256
+source: x86/release/gamin/gamin-0.1.10-14-src.tar.bz2 668979 06994c1d1d0c62a8f6f2dffc644cca74cf43dc4d5e7dc23f2bdfb964a11d7f68b274e2a85de14c88514d371c9e42493a76aa20e6596c31870ea9021e6dfa1ea2

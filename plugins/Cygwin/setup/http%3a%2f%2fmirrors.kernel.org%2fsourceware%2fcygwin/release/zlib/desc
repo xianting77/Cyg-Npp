@@ -1,0 +1,15 @@
+zlib
+sdesc: "Gzip de/compression library (documentation)"
+ldesc: "zlib is designed to be a free, general-purpose, legally
+unencumbered -- that is, not covered by any patents -- lossless data-
+compression library for use on virtually any computer hardware and operating
+system. The zlib data format is itself portable across platforms."
+category: Libs
+requires: zlib0 cygwin
+version: 1.2.8-3
+install: x86/release/zlib/zlib-1.2.8-3.tar.xz 35368 c35cf0ef346cd2dc82557306435fa5ff0f30d37563886732a6aeb522fead36e21a71a0f6707798465b255fc1b4bf18d05c301b1417f8e0f3452194aabc1f5694
+source: x86/release/zlib/zlib-1.2.8-3-src.tar.xz 575168 029792baa92047dca6730a543e586dabbfc1561196afaa0f6cfd2abe26bcb928b9af8f1822e79e213e51fda16c2d257a51ba6cb36c0ff881b31feaabc09208f9
+[prev]
+version: 1.2.8-2
+install: x86/release/zlib/zlib-1.2.8-2.tar.xz 35380 2c501fdaf4355f28837d40ba6fa5fba08aec21eb81717a3f394890f80ceb80d402a5ee1bb2c9fbc3f685cd46a48ae003fab2dbf537996058e3029c7f66f18c03
+source: x86/release/zlib/zlib-1.2.8-2-src.tar.xz 575144 9c1dbfc137ec66fa23e76a1fe1fc4c535e5c4c0febabf3cc77882397713952febf9094ecf91e5f374703cda9bf633a5dae3ae61ed8f02cf8b657a15af18d5ae7

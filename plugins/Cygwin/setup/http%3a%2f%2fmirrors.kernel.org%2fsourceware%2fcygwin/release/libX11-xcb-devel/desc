@@ -1,0 +1,12 @@
+libX11-xcb-devel
+sdesc: "X.Org X11 XCB interface (development)"
+ldesc: "X.Org X11 core library"
+category: Libs
+requires: libX11-devel libX11-xcb1 libXau-devel libxcb-devel libXdmcp-devel cygwin
+version: 1.6.3-1
+install: x86/release/libX11/libX11-xcb-devel/libX11-xcb-devel-1.6.3-1.tar.xz 1652 496e4d4968c971bab501f831e3eb13ae48510d1d0530d4835b82181c84a1e13ca6e8fc0e6479bc1556a6786daf73ca079cf4cc0197a500d283c00aef699a4f73
+source: x86/release/libX11/libX11-1.6.3-1-src.tar.xz 2363896 cf27e335066fec165b885fd1f7fcd9cf8ae15d5350c1a804376190e40faf8e36bc2c750891efb3140d27643f19041abe696b540db30848bdb79bc033d1e2086f
+[prev]
+version: 1.6.2-2
+install: x86/release/libX11/libX11-xcb-devel/libX11-xcb-devel-1.6.2-2.tar.xz 1720 7a6172b23fd72c7da6514fd0bd05d3800953d9aa1eebb52c66c386aa46f057d86caaa9b40867557b3336034f4090b652ff0701be11c3f75d23364655e6d6e171
+source: x86/release/libX11/libX11-1.6.2-2-src.tar.xz 2339984 3f66f73982be1abb9f900920627cd87dec2fa7d2021d3ab1250162577917458cf0de880cc03ab761becaa9ec411247c3ac75679278cfed0da8fa601adb491b80

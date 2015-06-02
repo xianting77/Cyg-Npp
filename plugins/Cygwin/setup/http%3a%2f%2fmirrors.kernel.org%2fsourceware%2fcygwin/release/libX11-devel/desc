@@ -1,0 +1,12 @@
+libX11-devel
+sdesc: "X.Org X11 core library (development)"
+ldesc: "X.Org X11 core library"
+category: Libs
+requires: kbproto libX11_6 libXau-devel libxcb-devel libXdmcp-devel xproto cygwin
+version: 1.6.3-1
+install: x86/release/libX11/libX11-devel/libX11-devel-1.6.3-1.tar.xz 69172 c290d507dc959ee94ebe80a5ee05f60efed1600c67278f3630c0889665a36ae2d4466db2144fd49573ec0453ad18db622f52b6ad295c5333a32a1f18af10f365
+source: x86/release/libX11/libX11-1.6.3-1-src.tar.xz 2363896 cf27e335066fec165b885fd1f7fcd9cf8ae15d5350c1a804376190e40faf8e36bc2c750891efb3140d27643f19041abe696b540db30848bdb79bc033d1e2086f
+[prev]
+version: 1.6.2-2
+install: x86/release/libX11/libX11-devel/libX11-devel-1.6.2-2.tar.xz 69528 b8c3081d09f8c02e26de492433920be8886b689cfcc018266f6901a6a618c4313fbe58f7b258b30a86d6f02f549e10c3cf0f48839a401bc959b7752dc93d729f
+source: x86/release/libX11/libX11-1.6.2-2-src.tar.xz 2339984 3f66f73982be1abb9f900920627cd87dec2fa7d2021d3ab1250162577917458cf0de880cc03ab761becaa9ec411247c3ac75679278cfed0da8fa601adb491b80

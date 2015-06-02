@@ -1,0 +1,16 @@
+check
+sdesc: "Unit test framework for C"
+ldesc: "Check is a unit test framework for C. It features a simple
+interface for defining unit tests, putting little in the way of the developer.
+Tests are run in a separate address space, so Check can catch both assertion
+failures and code errors that cause segmentation faults or other signals. The
+output from unit tests can be used within source code editors and IDEs."
+category: Devel
+requires: gawk _update-info-dir cygwin
+version: 0.9.12-1
+install: x86/release/check/check-0.9.12-1.tar.xz 134084 1c6a8a38cf2aa4dec3e7da3758c398e0e13cb4563fde0db6522ea78bb73d0398b1f9ee3eb93b69a1f19c6d922e75caed3e5f41a789f4fd69d9de1308f5571618
+source: x86/release/check/check-0.9.12-1-src.tar.xz 731632 7cce56b1e18d62eecedbde85f72824d9c59d253feaf8d56ace9bbcfe6317ee43c5d398ecdc3e1e438342dfca9828ac8bdc4e257596451c68f82ed727d8783aa9
+[prev]
+version: 0.9.10-1
+install: x86/release/check/check-0.9.10-1.tar.bz2 116345 b2713011830df3aeb3de7e478ba3db09b07e47b3a4f38106bbbe620dcc10871bc839d451ac21b2bcf0097d6350ea27903558adaf2426d72fbe5c006673535470
+source: x86/release/check/check-0.9.10-1-src.tar.bz2 654382 c5f170c0b884effc20df1c689466ba7f6ac3589c4122f02b757da2c5950dbcc04f16d64923ed04cef978403c4b9fd4d76b46f20b70206962e48a82ec51d506e3

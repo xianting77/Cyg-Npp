@@ -1,0 +1,8 @@
+libXau-devel
+sdesc: "X.Org Xauthority library"
+ldesc: "X.Org Xauthority library"
+category: X11
+requires: libXau6 xproto
+version: 1.0.8-1
+install: x86/release/libXau/libXau-devel/libXau-devel-1.0.8-1.tar.bz2 6469 deeff5417334aa0aeea1015eb8f601a06ab7bce132ce5ced30566b4699209e9b393b34d742b85739a2ddadd45ec824cea559edc5534fe68134b33abe8a31963f
+source: x86/release/libXau/libXau-1.0.8-1-src.tar.bz2 297448 54527abdf71b756dddd465783af9c55a20c00f95f5e203bfbb4e3c884354dbfe4d0905baaa891afb7d66a476d71feebf1d9184e39121639cf7bd4952761f132c

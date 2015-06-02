@@ -1,0 +1,12 @@
+libxcb-devel
+sdesc: "X Protocol C-Language Bindings (core development)"
+ldesc: "libxcb provides an interface to the X Window System protocol,
+which replaces the current Xlib interface. Xlib can also use XCB as a transport
+layer, allowing software to make requests and receive responses with both,
+which eases porting to XCB. However, client programs, libraries, and toolkits
+will gain the most benefit from a native XCB port."
+category: Libs
+requires: libXau-devel libxcb1 libXdmcp-devel cygwin
+version: 1.10-1
+install: x86/release/libxcb/libxcb-devel/libxcb-devel-1.10-1.tar.xz 60776 ddcf7032ad915b55e444b22b94c08a93e1441baabdbd982440f95305ad95d58fddf646a5acc754e505583e3fe50d9f84668857980915020567b2181a198c28c7
+source: x86/release/libxcb/libxcb-1.10-1-src.tar.xz 477716 10dd3ea61fc4d355d6e3e13b24ead990aa4ad0d7a4cdd59d0fcce3345a4101775fb333c50ee13bfcc014e7e747b11d7e55a808edc463a651fa09289b2b5275c3

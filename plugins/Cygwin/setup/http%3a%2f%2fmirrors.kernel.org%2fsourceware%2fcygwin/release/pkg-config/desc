@@ -1,0 +1,13 @@
+pkg-config
+sdesc: "Package compiling configuration utility"
+ldesc: "pkg-config is a script to make putting together all the build
+flags when compiling/linking a lot easier."
+category: Devel
+requires: libglib2.0_0 cygwin
+version: 0.28-1
+install: x86/release/pkg-config/pkg-config-0.28-1.tar.xz 53320 38a74d524e2a5a55baef6eba7c6b43336f4a319565fd10df6ebba53a43f5decb93d7452d38fa27a41a9f52d821476975aefbe03608cb338163e900dffd6b9b37
+source: x86/release/pkg-config/pkg-config-0.28-1-src.tar.xz 1921472 c7bb37488e36cfba8504b046b7cd40f9a848e53010259a7a55a2806a6fd16f0ebd50a20de70acf35f36498790dadde4ebb20f49a69b8ec90bde25ecbcca3325a
+[prev]
+version: 0.23b-10
+install: x86/release/pkg-config/pkg-config-0.23b-10.tar.bz2 69478 07589114fa68ff8e4361dc1570d4177f3407066acc595bb34595083168b7c25d0bc4457b8d156ddb3e5bac28461d9cd874ab199603a3e0b5d4bf726fe0ad94b2
+source: x86/release/pkg-config/pkg-config-0.23b-10-src.tar.bz2 517488 82c34d3fb95f12a882a1d278ce0ab4aeae91ac3bef6d55b6ced5e0b1b39b74e9f6d63dfe97e6c67106bbd4a34821a325db34049bfdee0cb96549e4461d4c1cb9

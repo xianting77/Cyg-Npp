@@ -1,0 +1,13 @@
+shared-mime-info
+sdesc: "Shared MIME info database"
+ldesc: "This package contains the core database of common types and the
+update-mime-database command used to extend it."
+category: X11
+requires: libglib2.0_0 libxml2 cygwin
+version: 1.3-3
+install: x86/release/shared-mime-info/shared-mime-info-1.3-3.tar.xz 257720 6a6ead9bbafd0a1dbc6afaccf42cbf1df46ee81a048200cdc74a6467dd2fb867a1bb5910062c33f2438e9efbe9adde4ba920500366d2ac4c5f01e22bb2c055e6
+source: x86/release/shared-mime-info/shared-mime-info-1.3-3-src.tar.xz 523860 edfd97ebe3362f62bc373ccb70ee5843311d5730adbf1922d9c6fefe627274c44e44ec6a2ed9fb452dea92aa16e292be210de67982a667a8e53e80fd69b579be
+[prev]
+version: 1.3-2
+install: x86/release/shared-mime-info/shared-mime-info-1.3-2.tar.xz 257696 4199983e83363de7ca676435864d9c990308e9da6c699a20d626334eb1907eed09f80bd9ba9664cbe3abcc2859ded912bfc4ddee80524b50794e2cdca6a25424
+source: x86/release/shared-mime-info/shared-mime-info-1.3-2-src.tar.xz 523708 649edcb69300aad445d23023399c11f628fd67af1328e6e4a43d9aae6c83f0e6fd8cde3f60f1a79f346f9b563f38f4206a71d3c3ef9c36516d5d5c386fa52044

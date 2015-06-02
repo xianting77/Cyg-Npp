@@ -19,9 +19,10 @@
         <Command name="Send via Outlook" Ctrl="yes" Alt="yes" Shift="yes" Key="79">outlook /a &quot;$(FULL_CURRENT_PATH)&quot;</Command>
     </UserDefinedCommands>
     <PluginCommands>
-        <PluginCommand moduleName="NppExec.dll" internalID="20" Ctrl="no" Alt="no" Shift="no" Key="120" />
-        <PluginCommand moduleName="NppExec.dll" internalID="21" Ctrl="no" Alt="no" Shift="yes" Key="120" />
-        <PluginCommand moduleName="NppExec.dll" internalID="0" Ctrl="no" Alt="no" Shift="no" Key="116" />
+        <PluginCommand moduleName="NppExec.dll" internalID="20" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <PluginCommand moduleName="NppExec.dll" internalID="21" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <PluginCommand moduleName="NppExec.dll" internalID="22" Ctrl="no" Alt="no" Shift="no" Key="120" />
+        <PluginCommand moduleName="NppExec.dll" internalID="23" Ctrl="no" Alt="no" Shift="yes" Key="120" />
     </PluginCommands>
     <ScintillaKeys />
 </NotepadPlus>

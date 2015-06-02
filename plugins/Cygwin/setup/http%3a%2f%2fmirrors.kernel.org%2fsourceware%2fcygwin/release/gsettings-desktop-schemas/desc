@@ -1,0 +1,13 @@
+gsettings-desktop-schemas
+sdesc: "GNOME desktop GSettings schemas"
+ldesc: "gsettings-desktop-schemas contains a collection of GSettings
+schemas for settings shared by various components of a desktop."
+category: GNOME
+requires: libglib2.0_0 cygwin
+version: 3.14.2-1
+install: x86/release/gsettings-desktop-schemas/gsettings-desktop-schemas-3.14.2-1.tar.xz 415712 68f2d33b15759b548ccdb3a2c41a46850bd0fd1194f3f13d8d3aaeb375f9ea71f4028e899f15126af0db85a10590fe8482e6d153b8ae59a4ead4746d0da6d7e8
+source: x86/release/gsettings-desktop-schemas/gsettings-desktop-schemas-3.14.2-1-src.tar.xz 522964 c1767733202c57586e99f07ff594b4f6839cb1c3e891e21059e2e43e332fe63eedb18d4b9b7030a95df7780d2f69d2e7f1afd3b9bcb7e32b1423ccc2713dd4a6
+[prev]
+version: 3.14.1-1
+install: x86/release/gsettings-desktop-schemas/gsettings-desktop-schemas-3.14.1-1.tar.xz 394644 b4e44fe62c7bd8ac70440d76ed2a7087868b1b7dc089c397016f27257d0cbdc5f781280270c0f60b564179d63f82e0f1d91f2ec90fbab0bc0a83c8b2f2e594f8
+source: x86/release/gsettings-desktop-schemas/gsettings-desktop-schemas-3.14.1-1-src.tar.xz 497388 eded47428539be7f3640eef8f9694824e9f14409da0cbb012767127de1a6d7b68c30ba05c2b9593a869cddf8553cc7495c14b7a31355d8b7606a6744ffc75c9a

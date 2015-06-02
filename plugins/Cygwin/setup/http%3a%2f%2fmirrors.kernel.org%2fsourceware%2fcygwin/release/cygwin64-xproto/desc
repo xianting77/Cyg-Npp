@@ -1,0 +1,7 @@
+cygwin64-xproto
+sdesc: "X11 protocol headers for Cygwin 64bit toolchain"
+ldesc: "X11 protocol headers for Cygwin 64bit toolchain"
+category: Devel
+version: 7.7-4
+install: x86/release/cygwin64-xproto/cygwin64-xproto-7.7-4.tar.xz 197736 d15d047bb33f5fd75a2300b165b59b6ece302e184ba49d087d355b39e904e1ab18712fb8fd61274e88a37b0c32af7b5110987db3caf037dc3fcb291607c73720
+source: x86/release/cygwin64-xproto/cygwin64-xproto-7.7-4-src.tar.xz 3008508 c70c13c9f4fc0416bc70f91788d46a761487a8aeec416665f253fbff7d219e333e048c928316ee15622831be48126302055609079e5ed2728d863dcdf9b5054c
